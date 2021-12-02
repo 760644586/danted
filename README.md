@@ -1,6 +1,9 @@
 yum -y install wget
+
 get –no-check-certificate https://raw.github.com/760644586/danted/master/install.sh -O install.sh
+
 bash install.sh --port=8888 --user=admin --passwd=123456
+
 
 
 # Sockd
