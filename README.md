@@ -1,3 +1,8 @@
+yum -y install wget
+get –no-check-certificate https://raw.github.com/760644586/danted/master/install.sh -O install.sh
+bash install.sh --port=8888 --user=admin --passwd=123456
+
+
 # Sockd
 **Dante socks5 server (v1.3.2/v1.4.2) auto-install and management script** 
 
